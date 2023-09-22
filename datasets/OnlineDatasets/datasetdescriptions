@@ -1,0 +1,14 @@
+Datasets 
+tentacleDataset_2.01 : particles released from fixed position + sinusoidal motion in the tentacle
+			q1, q2 = sin(4t) , sin(4t) 
+
+
+tentacleDataset_2.02 : particles released from varying position + fixed position for the tenatcle 
+			q1, q2 = 0, 0 
+			
+			
+tentacleDataset_2.03 : particles released from fixed position + step reponse for the tentacle 
+			q1, q2 = pi/2, 0 
+
+tentacleDataset_2.04 : particles released from moving position + tenatcle in sinusoidal motion 
+
