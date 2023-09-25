@@ -8,7 +8,7 @@ cd src/structuralModels
 
 code main.py 
 ```
-Running this file should 
+Running this file should show a window with two plots that are updating with time. 
 
 ### Simulation Components 
 

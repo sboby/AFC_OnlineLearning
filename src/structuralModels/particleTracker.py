@@ -59,15 +59,6 @@ class Particle ():
         self.color = color
 
 
-### Let's make particles 
-
-
-def yInlet ( t ):
-    frequency = 0.245
-    return Ly/2.1
-    # return ( Ly * np.sin(frequency*t*2*np.pi) + Ly ) / 2 
-
-
 def weight ( deltaTime, T, tau ):
     if deltaTime < tau:
         return 0.5 * ( 1 - np.cos ( np.pi/tau* deltaTime ) )
@@ -300,7 +291,6 @@ class ParticleSet ():
         plt.title ( str(t) )
 
     def plotConcentration ( self, ax ):
-        print ( "WHY" )
         ax.plot ( self.tlist, self.rtlist )
         ax.set_xlim ( 0, self.timeEnd )
         ax.set_ylim ( 0, 1 )

@@ -485,11 +485,11 @@ class PythonInterface ():
 
     if self.t > timeEnd:
       periodFrame = dt * timeStepSkipPlot
-      print ( periodFrame )
+      
 
       fps = 1 / periodFrame
 
-      print ( fps )
+      
       fpsFactor = fps / 50
       frameSkip = m.ceil ( fpsFactor )
 
@@ -500,10 +500,7 @@ class PythonInterface ():
       q1_history = np.array(self.tentacle.q1_history)
       q2_history = np.array(self.tentacle.q2_history)
       velocitySensorMeasurements = np.array(self.particleSet.velocityMeasurements)
-      print(velocitySensorMeasurements.shape)
       
-      print("q1_history.shape", q1_history.shape)
-      print("self.timeIndex", self.timeIndex)
       exportData[:, 0] = q1_history
       
       exportData[:, 1] = q2_history
@@ -514,8 +511,6 @@ class PythonInterface ():
       velocityData = np.zeros((self.timeIndex+1, 3, 2))
       velocityData[:, :, :] = velocitySensorMeasurements
       
-      print(velocitySensorMeasurements)
-
       np.savetxt('stepResponse_2.24.txt', exportData, header = "q1, q2, concentration")
    
 
