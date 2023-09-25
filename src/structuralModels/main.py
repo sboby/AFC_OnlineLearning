@@ -24,8 +24,8 @@ model = genericTentacleModel.PythonInterface \
     density, Izz
 )
 
-NTimeSteps = 2000
-tArray = np.linspace ( 0, 10, num = NTimeSteps )
+NTimeSteps = 10000
+tArray = np.linspace ( 0, 50, num = NTimeSteps )
 dt = tArray[1] - tArray[0]
 
 densityArray = None
