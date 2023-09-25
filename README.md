@@ -18,7 +18,7 @@ There is an incoming flow from the left-hand side of the channel. Particles colo
 The terminal prints: `rt`, the number of particles passing the measure point above the split channel, the number of particles passing the measurement point below the split channel. `rt` is a function of the ratio of the particles passing below the split channel to the total number of particles having passed the measurement point within a time window \tau. 
 
 ### Simulation Components 
-![Alt text](susupportsupportImages/movementExampleStepResponse.gif)
+![Alt Text](https://github.com/sboby/AFC_OnlineLearning/blob/main/supportImages/movementExampleStepResponse.gif)
 
 ####  The Environment 
 
