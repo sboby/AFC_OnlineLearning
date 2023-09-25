@@ -27,8 +27,8 @@ The terminal prints: `rt`, the number of particles passing the measure point abo
 #### Tracer Particles 
 
 #### The Metric 
-
+```math
 \begin{*align}
 r(t) = \frac{\sum{w_l}}{\sum{w_l + w_{ip}}}
 \end{align*}
-
+```
